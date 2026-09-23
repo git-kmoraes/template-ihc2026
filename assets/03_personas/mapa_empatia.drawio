@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2026-09-23T12:00:00.000Z" agent="draw.io" version="29.3.6">
+  <diagram id="mapa-empatia" name="Page-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Mapa de empatia — P01 Camila" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="35" width="820" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="Hipóteses iniciais a validar" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="75" width="820" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="sees" value="&lt;b&gt;Vê&lt;/b&gt;&lt;br&gt;Vários lugares possíveis, conversas separadas e informações sem padrão." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="hears" value="&lt;b&gt;Ouve&lt;/b&gt;&lt;br&gt;Sugestões diferentes sobre onde procurar ou com quem falar." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="thinks" value="&lt;b&gt;Pensa e sente&lt;/b&gt;&lt;br&gt;Preocupação com o valor do item e dúvida sobre a chance de recuperação." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="285" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="does" value="&lt;b&gt;Diz e faz&lt;/b&gt;&lt;br&gt;Refaz o caminho, pergunta a colegas e descreve o item mais de uma vez." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="285" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="pains" value="&lt;b&gt;Dores&lt;/b&gt;&lt;br&gt;Não saber se alguém encontrou, repetir a busca e não receber retorno." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="380" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="gains" value="&lt;b&gt;Ganhos&lt;/b&gt;&lt;br&gt;Encontrar uma correspondência confiável e entender como recuperar o item." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="380" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

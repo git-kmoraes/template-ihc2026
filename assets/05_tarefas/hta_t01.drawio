@@ -1,0 +1,51 @@
+<mxfile host="Electron" modified="2026-09-23T12:00:00.000Z" agent="draw.io" version="29.3.6">
+  <diagram id="hta-t01" name="Page-1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="HTA — T01 Buscar e recuperar item perdido" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="1200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="n0" value="&lt;b&gt;0&lt;/b&gt; Buscar e recuperar o item perdido" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="605" y="100" width="350" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;1&lt;/b&gt; Reconstruir a perda" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;2&lt;/b&gt; Procurar nos locais e canais" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="330" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;3&lt;/b&gt; Registrar ou atualizar a perda" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="570" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="&lt;b&gt;4&lt;/b&gt; Avaliar uma possível correspondência" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="810" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n5" value="&lt;b&gt;5&lt;/b&gt; Confirmar propriedade e recuperar" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6" value="&lt;b&gt;6&lt;/b&gt; Acompanhar ou encerrar a busca" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="245" width="190" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="n11" value="&lt;b&gt;1.1&lt;/b&gt; Lembrar o último uso" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="385" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n12" value="&lt;b&gt;1.2&lt;/b&gt; Listar locais e horários" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="245" y="385" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="plan" value="&lt;b&gt;Plano 0:&lt;/b&gt; executar 1 &amp;gt; 2 &amp;gt; 3. Sem candidato, executar 6. Com candidato, executar 4; se for plausível, executar 5; caso contrário, voltar a 6. Repetir 2 ou atualizar 3 quando surgir nova informação.&lt;br&gt;&lt;b&gt;Plano 1:&lt;/b&gt; executar 1.1 e 1.2 em qualquer ordem." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="385" width="1000" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="e01" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e02" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e03" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e04" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e05" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e06" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n0" target="n6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n1" target="n11"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="n1" target="n12"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

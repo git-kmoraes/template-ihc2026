@@ -2,31 +2,31 @@
 
 ## Relação entre TCC e escopo de IHC
 
-- [ ] Está claro qual é o **tema/contribuição do TCC** e qual é o **escopo de IHC da disciplina**.
-- [ ] A equipe registrou se o TCC já previa interface, previa parcialmente ou não previa.
+- [x] Está claro qual é o **tema/contribuição do TCC** e qual é o **escopo de IHC da disciplina**.
+- [x] A equipe registrou se o TCC já previa interface, previa parcialmente ou não previa.
 - [ ] Se o TCC não previa interface, a equipe explicou como derivou o recorte de IHC a partir da contribuição técnica.
-- [ ] O usuário escolhido para IHC é plausível e possui relação clara com o valor produzido pelo tema do TCC.
-- [ ] O objetivo do usuário é descrito como resultado no mundo real, e não como “usar o sistema”.
-- [ ] A interface da disciplina não é apresentada como obrigação formal do TCC, salvo se isso tiver sido acordado com o orientador.
-- [ ] O recorte de IHC é pequeno o suficiente para ser modelado, prototipado e avaliado durante a disciplina.
-- [ ] O projeto consegue explicar a cadeia **problema humano → contribuição computacional → forma de uso → impacto potencial**.
+- [x] O usuário escolhido para IHC é plausível e possui relação clara com o valor produzido pelo tema do TCC.
+- [x] O objetivo do usuário é descrito como resultado no mundo real, e não como “usar o sistema”.
+- [x] A interface da disciplina não é apresentada como obrigação formal do TCC, salvo se isso tiver sido acordado com o orientador.
+- [x] O recorte de IHC é pequeno o suficiente para ser modelado, prototipado e avaliado durante a disciplina.
+- [x] O projeto consegue explicar a cadeia **problema humano → contribuição computacional → forma de uso → impacto potencial**.
 
 ## Estrutura e apresentação
 
-- [ ] O README explica problema, público, contexto, contribuição do TCC e recorte de IHC.
-- [ ] Todos os 14 arquivos de entrega estão linkados e abrem corretamente.
-- [ ] Não existem links locais quebrados.
-- [ ] Imagens e diagramas são legíveis no GitHub.
-- [ ] Arquivos editáveis dos principais diagramas foram preservados quando possível.
-- [ ] Entregas individuais identificam o autor.
-- [ ] As quantidades mínimas por integrante foram atendidas.
+- [x] O README explica problema, público, contexto, contribuição do TCC e recorte de IHC.
+- [x] Todos os 14 arquivos de entrega estão linkados e abrem corretamente.
+- [x] Não existem links locais quebrados.
+- [x] Imagens e diagramas são legíveis no GitHub.
+- [x] Arquivos editáveis dos principais diagramas foram preservados quando possível.
+- [x] Entregas individuais identificam o autor.
+- [x] As quantidades mínimas por integrante foram atendidas.
 - [ ] Links externos (Figma, Forms, vídeos) foram testados sem autenticação privilegiada.
 
 ## Coerência de IHC
 
-- [ ] Público-alvo, personas e participantes de pesquisa/teste são coerentes com o escopo de IHC.
-- [ ] Cenários de problema descrevem o problema/atividade sem antecipar a solução.
-- [ ] Tarefas analisadas correspondem a objetivos importantes das personas.
+- [x] Público-alvo, personas e participantes de pesquisa/teste são coerentes com o escopo de IHC.
+- [x] Cenários de problema descrevem o problema/atividade sem antecipar a solução.
+- [x] Tarefas analisadas correspondem a objetivos importantes das personas.
 - [ ] Modelo conceitual, signos e MoLIC usam terminologia consistente.
 - [ ] MoLIC contém caminhos principais, alternativas e rupturas relevantes.
 - [ ] O Figma cobre os fluxos modelados e não cria funcionalidades críticas sem rastreabilidade.

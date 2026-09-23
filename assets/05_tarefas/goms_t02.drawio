@@ -1,0 +1,38 @@
+<mxfile host="Electron" modified="2026-09-23T12:00:00.000Z" agent="draw.io" version="29.3.6">
+  <diagram id="goms-t02" name="Page-1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="GOMS — T02 Registrar e encaminhar item encontrado" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="1120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="goal" value="&lt;b&gt;Goal G0&lt;/b&gt;&lt;br&gt;Registrar o item encontrado e transferir sua responsabilidade de forma compreensível" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="560" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="m1" value="&lt;b&gt;Method M1&lt;/b&gt;&lt;br&gt;Registrar um novo achado" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="180" y="255" width="400" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="m2" value="&lt;b&gt;Method M2&lt;/b&gt;&lt;br&gt;Indicar possível correspondência a uma perda existente" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="980" y="255" width="400" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="o1" value="&lt;b&gt;Operators M1&lt;/b&gt;&lt;br&gt;Perceber que não existe relato compatível &amp;gt; selecionar categoria, local e período &amp;gt; digitar descrição &amp;gt; fotografar quando seguro &amp;gt; reservar característica de confirmação &amp;gt; enviar &amp;gt; ler orientação &amp;gt; encaminhar o objeto" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="600" height="165" as="geometry"/>
+        </mxCell>
+        <mxCell id="o2" value="&lt;b&gt;Operators M2&lt;/b&gt;&lt;br&gt;Perceber relato semelhante &amp;gt; abrir &amp;gt; comparar &amp;gt; decidir &amp;gt; indicar possível correspondência &amp;gt; fornecer detalhe adicional &amp;gt; ler orientação &amp;gt; encaminhar o objeto" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=14;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="880" y="390" width="600" height="165" as="geometry"/>
+        </mxCell>
+        <mxCell id="selection" value="&lt;b&gt;Selection Rule SR1&lt;/b&gt;&lt;br&gt;Usar M1 quando não houver relato compatível ou a busca for inconclusiva. Usar M2 quando existir relato semelhante, sem assumir que a propriedade foi comprovada." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="625" width="960" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend" value="&lt;b&gt;Operadores adotados:&lt;/b&gt; P — perceber; D — decidir; A — apontar ou selecionar; K — digitar ou confirmar; F — fotografar; E — entregar fisicamente." style="text;html=1;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="750" width="1060" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="goal" target="m1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="goal" target="m2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="m1" target="o1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;strokeColor=#000000;" edge="1" parent="1" source="m2" target="o2"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

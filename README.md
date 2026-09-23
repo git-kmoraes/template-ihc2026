@@ -17,32 +17,32 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** {{TÍTULO DO PROJETO}}  
-**TCC/projeto de origem:** {{TÍTULO ORIGINAL DO TCC}}  
-**Orientador(a):** {{NOME}}  
+**Título do projeto de IHC:** Achados e perdidos no campus da FEI  
+**TCC/projeto de origem:** Sistema de achados e perdidos no campus da FEI  
+**Orientador(a):** Não se aplica  
 **Disciplina:** Interação Humano-Computador  
-**Instituição:** {{INSTITUIÇÃO}}  
-**Semestre:** {{ANO/SEMESTRE}}
+**Instituição:** Centro Universitário FEI  
+**Semestre:** 8º ciclo
 
 ### Equipe
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| {{Nome 1}} | {{matrícula}} | {{@usuario}} | {{...}} |
-| {{Nome 2}} | {{matrícula}} | {{@usuario}} | {{...}} |
+| Karen Natally de Moraes | 221210867 | @git-kmoraes | Projeto completo |
+| — | — | — | — |
 
 ## Relação entre TCC e projeto de IHC
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | {{...}} |
-| Resultado técnico esperado do TCC | {{algoritmo, estudo, sistema, modelo, análise, API...}} |
-| O TCC já previa interface? | sim / não / parcialmente |
-| Capacidade técnica que pode gerar valor para pessoas | {{...}} |
-| Usuário principal adotado em IHC | {{...}} |
-| Objetivo principal desse usuário | {{...}} |
-| Interface/recorte explorado na disciplina | {{...}} |
-| Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
+| Tema central do TCC | Projeto escolhido: sistema de achados e perdidos no campus da FEI |
+| Resultado técnico esperado do TCC | Sistema interativo para registrar perdas e achados, comparar relatos, confirmar a propriedade e apoiar a devolução |
+| O TCC já previa interface? | Sim. A interface já fazia parte do escopo do projeto escolhido |
+| Capacidade técnica que pode gerar valor para pessoas | Organizar informações sobre perdas, achados, possíveis correspondências e devoluções |
+| Usuário principal adotado em IHC | P01 — Camila, estudante que perdeu um item, como perfil prioritário; P02 — Lucas, estudante que encontrou um item; P03 — Marina, pessoa que apoia a devolução, como papel hipotético |
+| Objetivo principal desse usuário | P01: localizar e recuperar o item; P02: registrar e encaminhar o achado; P03: comparar relatos, confirmar a propriedade e concluir a devolução |
+| Interface/recorte explorado na disciplina | Registro, busca, comparação, confirmação de propriedade e devolução |
+| Relação com o escopo formal do TCC | O tema do TCC não é utilizado; a interface pertence ao escopo do projeto escolhido |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
 
@@ -52,7 +52,9 @@ Escreva **um parágrafo curto e concreto** explicando: quem é o usuário escolh
 
 Evite começar pela tecnologia.
 
-> **Estrutura sugerida:** “`{{tipo de usuário}}` precisa `{{objetivo}}` em `{{contexto}}`. Atualmente enfrenta `{{problema/limitação}}` e utiliza `{{processo/alternativa atual}}`. O tema do TCC investiga `{{contribuição técnica}}`. Para fins da disciplina de IHC, será explorada uma interface que permita `{{forma de uso da contribuição}}`.”
+Camila (P01) precisa localizar e recuperar um item perdido, Lucas (P02) precisa registrar e encaminhar o objeto encontrado, e Marina (P03) representa, como hipótese, uma pessoa que apoia a comparação dos relatos e a devolução. O projeto conecta esses três objetivos por meio do registro de perdas e achados, da comparação das informações, da confirmação de propriedade e da devolução, sem assumir a existência de um processo institucional já definido.
+
+> **Estrutura sugerida aplicada:** “Camila precisa recuperar o item perdido, Lucas precisa encaminhar o objeto encontrado e Marina apoia a comparação e a devolução como papel hipotético. Atualmente os relatos podem ficar dispersos ou incompletos. A interface do sistema organiza os registros, as possíveis correspondências, a confirmação de propriedade e a devolução.”
 
 Se alguma afirmação ainda não estiver sustentada por evidência, registre-a como hipótese na [Entrega 1](docs/01_conhecendo_o_problema.md).
 
@@ -100,11 +102,11 @@ O protótipo de IHC pode, portanto, funcionar como uma demonstração do potenci
 
 | # | Entrega | Quantidade mínima / responsabilidade | Status |
 |---:|---|---|---|
-| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | ⬜ |
-| 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese | ⬜ |
-| 3 | [Personas, empatia, contexto e jornada](docs/03_personas_contexto_jornada.md) | 1 persona por integrante; demais artefatos consolidados | ⬜ |
-| 4 | [Cenários de análise/problema](docs/04_cenarios_problema.md) | 1 solução completa por integrante | ⬜ |
-| 5 | [Análise de tarefas: HTA, GOMS e CTT](docs/05_analise_tarefas.md) | cada integrante: pelo menos 1 HTA + 1 GOMS + 1 CTT | ⬜ |
+| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | 🟩 |
+| 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese | 🟩 |
+| 3 | [Personas, empatia, contexto e jornada](docs/03_personas_contexto_jornada.md) | 1 persona por integrante; demais artefatos consolidados | 🟩 |
+| 4 | [Cenários de análise/problema](docs/04_cenarios_problema.md) | 1 solução completa por integrante | 🟩 |
+| 5 | [Análise de tarefas: HTA, GOMS e CTT](docs/05_analise_tarefas.md) | cada integrante: pelo menos 1 HTA + 1 GOMS + 1 CTT | 🟩 |
 | 6 | [Prototipação em papel](docs/06_prototipacao_papel.md) | 1 protótipo integrado por equipe | ⬜ |
 | 7 | [Coleta de dados e aspectos éticos](docs/07_coleta_dados.md) | soluções individuais + técnicas distintas; questionário entre as técnicas | ⬜ |
 | 8 | [Ciclo de vida e engenharia de usabilidade](docs/08_engenharia_usabilidade.md) | 1 solução consolidada por equipe | ⬜ |

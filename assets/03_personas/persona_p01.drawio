@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2026-09-23T12:00:00.000Z" agent="draw.io" version="29.3.6">
+  <diagram id="persona-p01" name="Page-1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Proto-persona P01 — Camila" style="text;html=1;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="40" width="760" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="Estudante que perdeu um item" style="text;html=1;align=center;verticalAlign=middle;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="760" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="objective" value="&lt;b&gt;Objetivo&lt;/b&gt;&lt;br&gt;Localizar, confirmar e recuperar o objeto perdido." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="360" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="context" value="&lt;b&gt;Contexto&lt;/b&gt;&lt;br&gt;Circula entre diferentes ambientes do campus e usa o celular durante a rotina." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="360" height="115" as="geometry"/>
+        </mxCell>
+        <mxCell id="needs" value="&lt;b&gt;Necessidades&lt;/b&gt;&lt;br&gt;Buscar por local, período e categoria; acompanhar o caso; receber orientação para retirada." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="285" width="360" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="pains" value="&lt;b&gt;Dores&lt;/b&gt;&lt;br&gt;Repetir a descrição, não saber onde procurar e ficar sem retorno." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="285" width="360" height="135" as="geometry"/>
+        </mxCell>
+        <mxCell id="behavior" value="&lt;b&gt;Comportamentos&lt;/b&gt;&lt;br&gt;Procura primeiro nos locais recentes e pede ajuda a pessoas próximas." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="450" width="360" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="evidence" value="&lt;b&gt;Base atual&lt;/b&gt;&lt;br&gt;Proto-persona baseada nas hipóteses H01, H03 e H04. Precisa ser validada com participantes." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=12;fontSize=15;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="450" width="360" height="125" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
