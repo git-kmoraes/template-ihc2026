@@ -74,7 +74,7 @@ Não serão coletados nomes ou outras informações sensiveis, que permitam iden
 
 > Cada integrante deve preparar uma técnica/instrumento completo. As técnicas devem ser diferentes entre si e **questionário deve estar entre as técnicas escolhidas**, conforme o enunciado da disciplina.
 
-### Instrumento I01 — {{nome da técnica}}
+### Instrumento I01 — Questionário
 
 **Autor(a):** Karen Natally de Moraes
 
