@@ -47,23 +47,21 @@ A tarefa começa quando P01 percebe que o item não está com ela. Termina quand
 
 ### Diagrama
 
-![HTA T01](../assets/05_tarefas/hta_t01.svg)
+![HTA T01](../assets/05_tarefas/hta_fixed)
 
 ### Decomposição e planos
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design observada |
 |---|---|---|---|
-| 0 | buscar e recuperar o item perdido | executar 1 > 2 > 3; sem candidato, executar 6; com candidato, executar 4; se plausível, executar 5; senão, voltar a 6 | a pessoa precisa entender o estado da busca |
-| 1 | reconstruir a perda | executar 1.1 e 1.2 em qualquer ordem | memória de local e horário pode ser incompleta |
-| 1.1 | lembrar o último uso do item | reconstruir o momento mais recente em que ele estava presente | a lembrança pode ser imprecisa |
-| 1.2 | listar locais e horários | ordenar os lugares mais prováveis | mais de um local pode ser relevante |
-| 2 | procurar nos locais e canais conhecidos | consultar primeiro os locais recentes; repetir quando surgir nova informação | busca pode ficar dispersa |
-| 3 | registrar ou atualizar a perda | informar dados disponíveis e confirmar o registro | formulário longo pode causar abandono |
-| 4 | avaliar uma possível correspondência | comparar categoria, local, período e detalhes visíveis | semelhança não comprova propriedade |
-| 5 | confirmar propriedade e recuperar | fornecer detalhe reservado > receber instrução > retirar > confirmar recebimento | instruções e responsabilidade precisam ser claras |
-| 6 | acompanhar ou encerrar a busca | aguardar atualização; revisar com nova informação; encerrar quando decidido | ausência de retorno gera incerteza |
+| 0 | buscar um objeto perdido | executar 1 e 2| |
+| 1 | Preencher informações conhecidas | executar 1.1 e 1.2 em qualquer ordem | memória de local e horário pode ser incompleta |
+| 1.1 | informar data da perda | executar 1.1.1 ou 1.1.2 | a lembrança pode ser imprecisa |
+| 1.1.1 | selecionar data do pop-up de calendario | - | a lembrança pode ser imprecisa |
+| 1.1.2| digitar data | - | busca pode ficar imprecisa |
+| 2 | Analisar lista de objetos retornados| executar 2.1 e 2.2 | dificuldade de encontrar um objeto especifico em uma lista longa |
+| 2.1 | scrollar o mouse até o item desejado aparecer | - | dificuldade em reconhecer um objeto diante de muitas opções|
+| 2.2 | clicar em um item e expandir detalhes | - | dificuldade em reconhecer o objeto |
 
-**Plano 0:** executar 1 > 2 > 3. Se não houver candidato, executar 6. Durante o acompanhamento, repetir 2 ou atualizar 3 quando surgir nova informação. Quando houver candidato, executar 4. Se ele for plausível, executar 5; caso contrário, voltar a 6.
 
 **Interpretação:** a principal dificuldade não é apenas registrar a perda. P01 precisa reconstruir uma situação incerta, repetir partes da busca e distinguir “possível correspondência” de “item confirmado”.
 
