@@ -1,7 +1,7 @@
 # Entrega 6 — Prototipação em papel
 
 **Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Status:** não iniciada  
 **Responsabilidade:** 1 solução integrada por equipe
 
 ## Objetivo da atividade
@@ -10,32 +10,35 @@ Externalizar rapidamente ideias de interação em baixa fidelidade para explorar
 
 ## 1. Escopo do protótipo
 
-**Personas:** {{...}}  
-**Cenários/tarefas cobertos:** {{C01/T01...}}  
-**Objetivos principais:** {{...}}
+**Personas:** P01
 
-## 1.1 Possíveis famílias de interface
+**Cenários/tarefas cobertos:** C01/T01
 
-Escolha apenas o que for coerente com tarefas e cenários. Para TCCs técnicos, o protótipo pode explorar:
+**Objetivos principais:** permitir que o usuario
+busque um item perdido, analise os resultados
+retornados e solicite a recuperação do item.
 
-- **dashboard** para monitoramento e tomada de decisão;
-- **configuração/parametrização** para preparar algoritmo/modelo/processo;
-- **entrada/seleção de dados** com validação;
-- **acompanhamento de execução** com progresso, fila, cancelamento e recuperação;
-- **relatório/resultados** com explicação, gráficos e exportação;
-- **histórico** com busca, filtros, ordenação e detalhes;
-- **comparação** entre execuções, versões, algoritmos ou períodos;
-- **administração** de usuários, papéis, permissões ou entidades do domínio;
-- **auditoria/logs** traduzidos para o perfil;
-- **alertas/ocorrências** com ação de resposta.
+## 1.1 Família de interface escolhida
 
-> Não desenhe todas essas telas por obrigação. O objetivo da baixa fidelidade é experimentar a **estrutura da interação** necessária para as tarefas priorizadas.
+Interface mobile no formato de aplicativo,
+com mecanismos de busca, filtros e visualização
+dos detalhes dos itens encontrados.
 
 ## 2. Fluxos escolhidos
 
 | Fluxo | Tarefa/objetivo | Por que foi priorizado |
 |---|---|---|
-| PF01 | {{...}} | {{...}} |
+| PF01 | buscar e recuperar item perdido | representa um dos principais objetivos do aplicativo |
+
+## 3. Telas e estados
+
+- P01: tela inicial do aplicativo, permite ao usuario escolher a funcionalidade desejada
+- P02: tela de busca e visualização dos itens retornados
+- P03: tela de detalhes do item encontrado, com opção de solicitar sua recuperação
+
+A navegação entre as telas é representada
+através de setas que indicam o resultado
+das ações realizadas pelo usuario.
 
 ## 3. Telas e estados
 
@@ -43,28 +46,31 @@ Escolha apenas o que for coerente com tarefas e cenários. Para TCCs técnicos, 
 - Indique controles que mudam o estado.
 - Mostre pelo menos caminhos principais e estados de erro/retorno relevantes.
 
-![Protótipo](../assets/06_prototipos/prototipo_fluxo_01.svg)
+![Protótipo](../assets/05_tarefas/prototipo_manual.png)
 
 ## 4. Simulação / walkthrough
 
-Realize uma simulação com uma pessoa que não participou da elaboração dessas telas. Um colega pode ser usado **para essa iteração formativa**, mas isso não substitui os participantes finais da Entrega 14.
-
 | Observação | Tela/ação | Evidência | Consequência para o design |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| facilidade em identificar a funcionalidade de busca | P01 | botão Buscar item perdido identificado na tela inicial | manter organização da tela inicial |
+| dificuldade em retornar para alterar os filtros | P03 | ausência de botão de voltar | adicionar opção de retorno |
+| dúvida sobre como proceder após reconhecer o objeto | P03 | ausência de indicação de como solicitar a recuperação | adicionar botão de solicitação |
 
 ## 5. Alterações após a simulação
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
-| {{...}} | {{...}} | {{...}} | {{...}} |
+| tela de resultados sem botão de voltar | dificuldade em alterar informações da busca | adicionar botão de voltar | facilitar nova busca |
+| informações do item sem opção de recuperação | usuario não sabe como proceder | adicionar botão Solicitar recuperação | orientar usuario sobre a próxima ação |
 
 ## Checklist
 
-- [ ] O protótipo cobre tarefas relevantes da Entrega 5.
-- [ ] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
-- [ ] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
+## Checklist
+
+- [x] O protótipo cobre tarefas relevantes da Entrega 5.
+- [x] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
+- [x] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
 - [ ] Telas/estados estão numerados e navegáveis na documentação.
-- [ ] Há pelo menos uma simulação/walkthrough documentado.
-- [ ] Críticas não foram apenas listadas: geraram decisão de revisão.
-- [ ] O protótipo continua em baixa fidelidade; detalhes visuais não mascaram problemas de fluxo.
+- [x] Há pelo menos uma simulação/walkthrough documentado.
+- [x] Críticas não foram apenas listadas: geraram decisão de revisão.
+- [x] O protótipo continua em baixa fidelidade; detalhes visuais não mascararam problemas de fluxo.
