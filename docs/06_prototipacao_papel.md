@@ -46,7 +46,7 @@ das ações realizadas pelo usuario.
 - Indique controles que mudam o estado.
 - Mostre pelo menos caminhos principais e estados de erro/retorno relevantes.
 
-![Protótipo](../assets/05_tarefas/prototipo_manual.png)
+![Protótipo](../assets/05_tarefas/propotipo_manual.png)
 
 ## 4. Simulação / walkthrough
 
