@@ -46,7 +46,7 @@ das ações realizadas pelo usuario.
 - Indique controles que mudam o estado.
 - Mostre pelo menos caminhos principais e estados de erro/retorno relevantes.
 
-![Protótipo](../assets/05_tarefas/propotipo_manual.png)
+![Protótipo](../assets/06_prototipos/prototipo)
 
 ## 4. Simulação / walkthrough
 
@@ -70,7 +70,7 @@ das ações realizadas pelo usuario.
 - [x] O protótipo cobre tarefas relevantes da Entrega 5.
 - [x] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
 - [x] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
-- [ ] Telas/estados estão numerados e navegáveis na documentação.
+- [x] Telas/estados estão numerados e navegáveis na documentação.
 - [x] Há pelo menos uma simulação/walkthrough documentado.
 - [x] Críticas não foram apenas listadas: geraram decisão de revisão.
 - [x] O protótipo continua em baixa fidelidade; detalhes visuais não mascararam problemas de fluxo.
