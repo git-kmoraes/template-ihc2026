@@ -78,30 +78,69 @@ A tarefa começa quando P01 percebe que o item não está com ela. Termina quand
 
 ## GOMS — T02 registrar e encaminhar item encontrado
 
-**Autor(a):** Karen Natally de Moraes — 221210867
+GOAL: T02 registrar item encontrado
 
-### Goal
+G0: Registrar item encontrado
 
-`G0: registrar o item encontrado e transferir sua responsabilidade de forma compreensível`
+pre condicao: usuario ter o aplicativo instalado e cadastro na ferramenta
 
-### Diagrama
+- G1: Abrir aplicativo de achados e perdidos
+  - selection rule: N/A so existe um metodo para acessar interface
+  - M1A: Acessar aplicativo
+    - OP. 1.A.1: tocar no icone do aplicativo
+    - OP. 1.A.2: aguardar aplicativo carregar
+    - OP. 1.A.3: selecionar campo de usuario
+    - OP. 1.A.4: digitar nome do usuario
+    - OP. 1.A.5: selecionar campo de senha
+    - OP. 1.A.6: digitar senha
+    - OP. 1.A.7: tocar no botao Entrar
+    - OP. 1.A.8: aguardar tela inicial carregar
 
-![GOMS T02](../assets/05_tarefas/goms_t02.svg)
+- G2: Preencher informacoes do item encontrado
+  - selection rule: N/A so existe um metodo para preencher informacoes do item
+  - M2A: Preencher formulario de registro de novo item
+    - OP. 2.A.1: tocar no botao Registrar novo item
+    - OP. 2.A.2: selecionar campo Categoria do item
+    - OP. 2.A.3: preencher categoria do item
+    - OP. 2.A.4: selecionar campo Descrição
+    - OP. 2.A.5: preencher descrição
+    - OP. 2.A.6: selecionar campo Local
+    - OP. 2.A.7: preencher Local
+    - OP. 2.A.8: selecionar campo data 
+    - OP. 2.A.9: preencher data
+    - OP. 2.A.10: selecionar campo Contato
+    - OP. 2.A.11: preencher telefone de contato
+    - OP. 2.A.12: selecionar campo Observações
+    - OP. 2.A.13: preencher campo observações
 
-### Métodos, operadores e regras de seleção
+- G3: Definir foto do item encontrado
+  - selection rule: usuario possui foto do item adequada para publicação
+  - M3A: Anexar foto da galeria
+    - OP. 3.A.1: tocar no botao Anexar foto
+    - OP. 3.A.2: selecionar opção Galeria
+    - OP. 3.A.3: selecionar foto previamente registrada do item
+    - OP. 3.A.4: confirmar seleção da foto
 
-- **Method M1:** registrar um novo achado.
-  - Operators: perceber que não existe relato compatível; selecionar categoria, local e período; digitar descrição; fotografar quando seguro; reservar característica de confirmação; enviar; ler a orientação; encaminhar o objeto.
-- **Method M2:** indicar possível correspondência a uma perda existente.
-  - Operators: perceber relato semelhante; abrir; comparar; decidir; indicar possível correspondência; fornecer detalhe adicional; ler a orientação; encaminhar o objeto.
-- **Selection Rule SR1:** usar M1 quando não houver relato compatível ou a busca for inconclusiva; usar M2 quando existir relato semelhante, sem assumir que a propriedade foi comprovada.
+  - selection rule: usuario nao possui foto adequada e pode fotografar o item com seguranca
+  - M3B: Tirar foto do item pelo aplicativo
+    - OP. 3.B.1: tocar no botao Anexar foto
+    - OP. 3.B.2: selecionar opcao Camera
+    - OP. 3.B.3: permitir acesso a camera caso solicitado
+    - OP. 3.B.4: posicionar camera
+    - OP. 3.B.5: tocar no botao de captura da foto
+    - OP. 3.B.6: confirmar foto
 
-**Operadores adotados:** P — perceber; D — decidir; A — apontar ou selecionar; K — digitar ou confirmar; F — fotografar; E — entregar fisicamente.
+  - selection rule: usuario nao possui foto adequada e/ou não pode fotografar o item com segurança
+  - M3C: Não anexar foto
+    - OP. 3.C.1: deixar campo de foto vazio
 
-**Contingência:** se a orientação de encaminhamento não estiver disponível, manter o registro pendente e informar que P02 ainda está com o objeto.
-
-> Não chame qualquer passo de “método”. Em GOMS, métodos são sequências alternativas capazes de atingir uma meta; regras de seleção explicam quando escolher entre eles.
-
+- G4: Salvar registro do item
+  - selection rule: N/A so existe um metodo para salvar item
+  - M4A: Salvar formulario preenchido
+    - OP. 4.A.1: conferir informações preenchidas
+    - OP. 4.A.2: tocar no botao Salvar
+    - OP. 4.A.3: aguardar processamento
+    - OP. 4.A.4: conferir mensagem de confirmacão do registro
 ---
 
 ## CTT — T03 comparar relatos e concluir devolução
@@ -136,7 +175,7 @@ Identifique, quando aplicável, tarefas de usuário, sistema, interação e tare
 
 Quais problemas de interação, oportunidades e requisitos apareceram a partir das modelagens? Quais tarefas irão para o protótipo e para o teste de usabilidade?
 
-As modelagens indicam que o registro precisa aceitar incerteza de local e período; busca, registro e acompanhamento fazem parte da mesma tarefa de P01; P02 precisa de um caminho curto e confirmação de transferência de responsabilidade; uma possível correspondência não pode ser tratada como comprovação; detalhes reservados ajudam a confirmar propriedade; e P03 precisa visualizar histórico, pendências e próxima ação. T01, T02 e T03 devem alimentar o protótipo e os testes posteriores.
+GOMS: A partir da analise de tarefas optou-se por uma interface mobile no formato de aplicativo, considerando o contexto de uso das personas P01 e P02, a mobilidade dos usuários dentro do campus e a facilidade de registrar fotos dos itens encontrados utilizando a camera do celular
 
 ## Checklist
 
