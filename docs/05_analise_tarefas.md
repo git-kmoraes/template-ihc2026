@@ -151,22 +151,20 @@ O CTT representa a coordenação entre o registro da perda, o registro do achado
 
 ### Diagrama
 
-![CTT T03](../assets/05_tarefas/ctt_t03.svg)
+![CTT T01](../assets/05_tarefas/Screenshot%202026-11-25%20at%2017.18.10.png)
 
 ### Legenda e relações temporais usadas
 
 | Operador/relação | Significado no diagrama | Exemplo no modelo |
 |---|---|---|
-| &#124;&#124;&#124; | tarefas podem acontecer em qualquer ordem ou em paralelo | P01 registra a perda e P02 registra o achado |
-| >> | a tarefa à direita começa após a conclusão da anterior | comparação precede a confirmação |
-| * | repetição | solicitar e receber novos detalhes até decidir |
+| \|\|\| | tarefas podem acontecer em qualquer ordem ou em paralelo | usuario preenche nome, telefone de contato e anexa comprovante de propriedade |
+| []>> | uma tarefa habilita a próxima passando informações | preencher formulario e sistema enviar formulario p/ analise |
+| >> | a próxima tarefa começa após a conclusão da anterior | sistema retorna analise p/ usuario e usuario retira o objeto |
 
-**Tipos de tarefa:** registrar perda e registrar achado são tarefas de interação; comparar informações é tarefa de usuário de P03; solicitar confirmação e combinar a devolução são tarefas de interação entre os papéis.
 
-**Expressão resumida:** `T03 = (1 ||| 2) >> (3 >> 4)* >> 3 >> 5 >> 6 >> 7`.
+**Expressão resumida:** 
 
-Identifique, quando aplicável, tarefas de usuário, sistema, interação e tarefas abstratas. Verifique se concorrência, escolha, habilitação, desabilitação e repetição estão representadas corretamente segundo a notação adotada em aula.
-
+((preencher nome ||| preencher telefone ||| anexar comprovante de propriedade) []>> sistema envia formulario p/ analise) []>> sistema retorna analise p/ usuario >> usuario retira o objeto
 ---
 
 ## Síntese da equipe
