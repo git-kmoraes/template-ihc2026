@@ -1,7 +1,7 @@
 # Entrega 8 — Ciclo de vida e engenharia de usabilidade
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** {{26/11/2026}}  
+**Status:** 🟩 concluido  
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
@@ -64,6 +64,7 @@ Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem
 
 
 ### 3.2 Metas quantitativas
+As metas serão avaliadas com estudantes da FEI representativos das personas P01 e P02, priorizando P01. A participação de P03 na tarefa T03 será simulada no protótipo.
 
 | ID | Dimensão | Métrica | Tarefa/escopo | Meta | Como medir | Justificativa |
 |---|---|---|---|---|---|---|
@@ -75,6 +76,7 @@ Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem
 
 
 ### 3.3 Priorização das metas
+As metas serão utilizadas no planejamento da avaliação (Entrega 12), na identificação de problemas de usabilidade por inspeção heurística (Entrega 13) e na verificação dos resultados obtidos durante a observação dos usuários (Entrega 14).
 
 | Meta | Peso de prioridade | Justificativa |
 |---|---:|---|
@@ -95,13 +97,14 @@ A partir dos resultados coletados, poderão ser revisados os seguintes artefatos
 - Prototipos de interface, principalmente nas funcionalidades de busca, registro e recuperação de objetos
 
 As alterações realizadas serão submetidas a novas avaliações, seguindo o caráter iterativo do ciclo de Engenharia de Usabilidade de Mayhew.
+
 ## Checklist
 
-- [ ] Capacidades e restrições têm impacto de IHC explicitado.
-- [ ] Está claro o limite entre contribuição técnica do TCC e camada interativa da disciplina.
-- [ ] Resultados/processamento simulados no protótipo foram explicitados.
-- [ ] Metas de usabilidade avaliam a interação, não substituem métricas técnicas do TCC.
-- [ ] Normas/princípios estão contextualizados, não apenas copiados.
-- [ ] Metas quantitativas são mensuráveis e associadas a tarefas/público.
-- [ ] Eficácia, eficiência e satisfação são consideradas quando pertinentes.
-- [ ] Metas poderão ser verificadas nas Entregas 12–14.
+- [x] Capacidades e restrições têm impacto de IHC explicitado.
+- [x] Está claro o limite entre contribuição técnica do TCC e camada interativa da disciplina.
+- [x] Resultados/processamento simulados no protótipo foram explicitados.
+- [x] Metas de usabilidade avaliam a interação, não substituem métricas técnicas do TCC.
+- [x] Normas/princípios estão contextualizados, não apenas copiados.
+- [x] Metas quantitativas são mensuráveis e associadas a tarefas/público.
+- [x] Eficácia, eficiência e satisfação são consideradas quando pertinentes.
+- [x] Metas poderão ser verificadas nas Entregas 12–14.
