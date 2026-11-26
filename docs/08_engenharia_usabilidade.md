@@ -14,9 +14,9 @@ Transformar o conhecimento acumulado sobre usuários, tarefas, plataforma e cont
 
 | Camada | O que pertence ao projeto | O que será avaliado em IHC |
 |---|---|---|
-| Contribuição técnica do TCC | Sistema de gerenciamento de achados e perdidos no campus da FEI, permitindo o registro, a busca, a identificação e a recuperação de objetos. | Eficácia e eficiência do sistema no atendimento às necessidades dos usuários, considerando a taxa de conclusão das tarefas, o tempo de execução e a necessidade de auxílio para localizar, registrar ou solicitar a recuperação de objetos. |
-| Camada de interação da disciplina | Interfaces, formulários, filtros de busca, apresentação dos resultados, fluxos de navegação e acompanhamento das solicitações de recuperação. | Facilidade de aprendizagem, clareza das informações, facilidade de navegação, acessibilidade, prevenção de erros e satisfação dos usuários. Serão considerados o número de erros, as dificuldades encontradas e a percepção dos participantes durante os testes de usabilidade. |
-| Integrações/dados simulados | Registros de objetos encontrados, fotografias, informações sobre local e data, comprovantes de propriedade e estados das solicitações de recuperação, representados no protótipo. | Capacidade dos usuários de interpretar corretamente as informações apresentadas, identificar objetos, compreender o estado das solicitações e reconhecer os próximos passos necessários para a recuperação, considerando erros de interpretação e dúvidas durante a interação. |
+| Contribuição técnica do TCC | Sistema de gerenciamento de achados e perdidos no campus da FEI, incluindo o armazenamento de dados, o processamento das buscas, o gerenciamento dos registros e das solicitações de recuperação de objetos. | Será avaliada a interação do usuário com as funcionalidades disponibilizadas pelo sistema, sem avaliar a implementação técnica, o desempenho computacional ou o funcionamento interno do sistema. |
+| Camada de interação da disciplina | Interfaces, formulários, filtros de busca, apresentação dos resultados, fluxos de navegação e acompanhamento das solicitações de recuperação. | Eficácia, eficiência, satisfação, facilidade de aprendizagem, clareza das informações, facilidade de navegação, acessibilidade e prevenção de erros durante a realização das tarefas. |
+| Integrações/dados simulados | Registros de objetos encontrados, fotografias, informações sobre local e data, comprovantes de propriedade e estados das solicitações de recuperação. Os dados e as operações de busca, registro e atualização das solicitações serão simulados no protótipo, sem integração com um sistema real. | Capacidade dos usuários de interpretar as informações apresentadas, identificar objetos, compreender o estado das solicitações e reconhecer os próximos passos necessários para a recuperação dos objetos. |
 
 
 ## 1. Características da plataforma
@@ -63,32 +63,38 @@ Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem
 | Satisfação do usuário | Proporcionar uma experiência de utilização que transmita confiança e segurança durante a busca e a recuperação dos objetos. |
 
 
-### 3.2. Metas quantitativas de usabilidade
+### 3.2 Metas quantitativas
 
-| Métrica | Meta quantitativa | Forma de avaliação |
-|---|---|---|
-| Eficácia | Pelo menos 80% dos participantes devem concluir corretamente cada tarefa proposta, sem auxílio. | Percentual de participantes que concluíram a tarefa com sucesso. |
-| Eficiência | Localizar um objeto perdido em até 3 minutos. | Tempo de execução da tarefa de busca e identificação do objeto. |
-| Taxa de erros | Cometer, em média, no máximo dois erros por tarefa, sem ocorrência de erros críticos. | Registro da quantidade e da gravidade dos erros cometidos durante a execução das tarefas. |
-| Facilidade de aprendizagem | Pelo menos 70% dos participantes devem conseguir realizar as tarefas prioritárias no primeiro contato com a interface, sem orientação prévia. | Observação do desempenho dos participantes durante o primeiro uso da interface. |
-| Satisfação | Obter uma avaliação média igual ou superior a 3,5, em uma escala de 1 a 5. | Questionário de satisfação aplicado após os testes de usabilidade. |
-
-As metas quantitativas foram estabelecidas considerando o estágio inicial de desenvolvimento do projeto e a complexidade das tarefas realizadas pelos usuários. Os valores poderão ser revisados a partir dos resultados das avaliações de usabilidade, seguindo o processo iterativo de Engenharia de Usabilidade de Mayhew.
+| ID | Dimensão | Métrica | Tarefa/escopo | Meta | Como medir | Justificativa |
+|---|---|---|---|---|---|---|
+| MU01 | eficácia | Taxa de conclusão sem ajuda | T01–T03 | ≥ 80% | Teste observado | Garantir que os usuários consigam concluir corretamente as tarefas propostas sem auxílio. |
+| MU02 | eficiência | Tempo mediano de busca e identificação do objeto | T01 | ≤ 3 minutos | Cronômetro | Reduzir o tempo necessário para localizar um objeto entre os registros disponíveis. |
+| MU03 | satisfação | Média das avaliações pós-tarefa | T01–T03 | ≥ 3,5 em uma escala de 1 a 5 | Questionário | Avaliar a percepção dos usuários sobre a experiência de utilização do aplicativo. |
+| MU04 | taxa de erros | Quantidade média de erros por tarefa | T01–T03 | ≤ 2 erros por tarefa e nenhum erro crítico | Teste observado e registro de erros | Evitar dificuldades durante a interação e erros que possam comprometer a recuperação dos objetos. |
+| MU05 | facilidade de aprendizagem | Taxa de conclusão no primeiro contato com a interface, sem treinamento | T01–T03 | ≥ 70% | Observação durante o primeiro uso | Permitir que novos usuários compreendam as funcionalidades sem necessidade de treinamento prévio. |
 
 
-### 3.3 Priorização das metas (se exigida na disciplina)
-
-Se o professor solicitar porcentagens que somem 100%, trate-as como **peso de prioridade**, não como métrica de usabilidade.
+### 3.3 Priorização das metas
 
 | Meta | Peso de prioridade | Justificativa |
 |---|---:|---|
-| MU01 | {{...}}% | {{...}} |
+| MU01 | 30% | A conclusão correta das tarefas é fundamental para que o aplicativo cumpra seu objetivo. |
+| MU02 | 20% | Reduzir o tempo e o esforço necessários para localizar objetos perdidos. |
+| MU03 | 15% | Proporcionar uma experiência satisfatória e transmitir confiança aos usuários. |
+| MU04 | 25% | Prevenir erros que possam comprometer a identificação e a recuperação dos objetos. |
+| MU05 | 10% | Facilitar a utilização do aplicativo por novos usuários. |
 | **Total** | **100%** | |
+
 
 ## 4. Como o ciclo será iterado
 
-Explique que artefatos serão revisitados após protótipos e avaliações.
+A partir dos resultados coletados, poderão ser revisados os seguintes artefatos:
+- Personas e análise de tarefas, caso sejam identificadas necessidades não consideradas inicialmente
+- Metas de usabilidade, considerando os resultados das avaliações
+- Fluxos de interação e estrutura de navegação do aplicativo
+- Prototipos de interface, principalmente nas funcionalidades de busca, registro e recuperação de objetos
 
+As alterações realizadas serão submetidas a novas avaliações, seguindo o caráter iterativo do ciclo de Engenharia de Usabilidade de Mayhew.
 ## Checklist
 
 - [ ] Capacidades e restrições têm impacto de IHC explicitado.
