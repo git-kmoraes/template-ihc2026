@@ -50,19 +50,31 @@ Transformar o conhecimento acumulado sobre usuários, tarefas, plataforma e cont
 
 Usabilidade deve ser discutida **no contexto de uso**. Metas quantitativas devem dizer o que será medido, em qual tarefa, com qual população e qual limite será considerado aceitável.
 
-### 3.1 Metas qualitativas
 
-| Meta | Para quem/tarefa | Evidência desejada | Justificativa |
-|---|---|---|---|
-| {{ex.: compreensão clara da diferença entre X e Y}} | {{...}} | {{fala/observação}} | {{...}} |
+### 3.1. Metas qualitativas de usabilidade
 
-### 3.2 Metas quantitativas
+| Meta qualitativa | Aplicação ao projeto |
+|---|---|
+| Facilidade de aprendizagem | Permitir que os usuários compreendam as funcionalidades de busca, registro e recuperação de objetos desde o primeiro contato com a interface. |
+| Facilidade de navegação | Permitir que os usuários encontrem as funcionalidades necessárias sem percorrer telas ou etapas desnecessárias. |
+| Facilidade de identificação dos objetos | Apresentar fotografias, descrições e filtros por local e data que auxiliem no reconhecimento dos objetos perdidos. |
+| Prevenção e recuperação de erros | Permitir que os usuários identifiquem e corrijam informações incorretas durante o registro e a solicitação de recuperação de objetos. |
+| Clareza das informações e do estado do sistema | Permitir que os usuários compreendam o andamento das solicitações de recuperação e os próximos passos necessários. |
+| Satisfação do usuário | Proporcionar uma experiência de utilização que transmita confiança e segurança durante a busca e a recuperação dos objetos. |
 
-| ID | Dimensão | Métrica | Tarefa/escopo | Meta | Como medir | Justificativa |
-|---|---|---|---|---|---|---|
-| MU01 | eficácia | taxa de conclusão sem ajuda | T01 | ≥ {{x}}% | teste observado | {{...}} |
-| MU02 | eficiência | tempo mediano | T02 | ≤ {{tempo}} | cronômetro/log | {{...}} |
-| MU03 | satisfação | escala pós-tarefa | T01–T03 | ≥ {{valor}} | questionário | {{...}} |
+
+### 3.2. Metas quantitativas de usabilidade
+
+| Métrica | Meta quantitativa | Forma de avaliação |
+|---|---|---|
+| Eficácia | Pelo menos 80% dos participantes devem concluir corretamente cada tarefa proposta, sem auxílio. | Percentual de participantes que concluíram a tarefa com sucesso. |
+| Eficiência | Localizar um objeto perdido em até 3 minutos. | Tempo de execução da tarefa de busca e identificação do objeto. |
+| Taxa de erros | Cometer, em média, no máximo dois erros por tarefa, sem ocorrência de erros críticos. | Registro da quantidade e da gravidade dos erros cometidos durante a execução das tarefas. |
+| Facilidade de aprendizagem | Pelo menos 70% dos participantes devem conseguir realizar as tarefas prioritárias no primeiro contato com a interface, sem orientação prévia. | Observação do desempenho dos participantes durante o primeiro uso da interface. |
+| Satisfação | Obter uma avaliação média igual ou superior a 3,5, em uma escala de 1 a 5. | Questionário de satisfação aplicado após os testes de usabilidade. |
+
+As metas quantitativas foram estabelecidas considerando o estágio inicial de desenvolvimento do projeto e a complexidade das tarefas realizadas pelos usuários. Os valores poderão ser revisados a partir dos resultados das avaliações de usabilidade, seguindo o processo iterativo de Engenharia de Usabilidade de Mayhew.
+
 
 ### 3.3 Priorização das metas (se exigida na disciplina)
 
